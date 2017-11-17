@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+
+        <com.smartmove.smartchart.smartChart.chart.SmartLineView
+            android:layout_width="match_parent"
+            android:layout_height="200.0dp"
+            android:layout_marginTop="10.0dp"
+            android:background="#ffffff" />
+
+        <com.smartmove.smartchart.smartChart.chart.SmartLineView
+            android:id="@+id/line_chart"
+            android:layout_width="match_parent"
+            android:layout_height="200.0dp"
+            android:layout_marginTop="10.0dp"
+            android:background="#ffffff"  />
+
+        <com.smartmove.smartchart.smartChart.chart.SmartLineView
+            android:id="@+id/circle_line_chart"
+            android:layout_width="match_parent"
+            android:layout_height="200.0dp"
+            android:layout_marginTop="10.0dp"
+            android:background="#ffffff"  />
+
+        <com.smartmove.smartchart.smartChart.chart.SmartLineView
+            android:id="@+id/only_circle_line_chart"
+            android:layout_width="match_parent"
+            android:layout_height="200.0dp"
+            android:layout_marginTop="10.0dp"
+            android:background="#ffffff"  />
+
+        <com.smartmove.smartchart.smartChart.chart.SmartBarView
+            android:layout_width="match_parent"
+            android:layout_height="200.0dp"
+            android:layout_marginTop="10.0dp"
+            android:background="#ffffff"  />
+    </LinearLayout>
+
+</ScrollView>
