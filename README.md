@@ -1,2 +1,2 @@
-https://github.com/ButBueatiful/dotvim/raw/master/one.jpg
-https://github.com/ArzefromChina/SmartChart/two.jpg
+https://github.com/ArzefromChina/SmartChart/raw/master/one.jpg
+https://github.com/ArzefromChina/SmartChart/raw/master/two.jpg
